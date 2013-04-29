@@ -1,0 +1,25 @@
+//shift bitwise operator
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  unsigned short val, displacement;
+	unsigned short x, y;
+
+	cout<<"Enter the value ";
+	cin>>val;
+	cout<<"Enter the displacement value ";
+	cin>>displacement;
+
+	x= val>>displacement;
+	y= val<<displacement;
+
+	cout<<"Right shift result : "<<x <<endl;
+	cout<<"Left shift result : "<<y <<endl;
+
+	system("PAUSE");
+	return(0);
+}
